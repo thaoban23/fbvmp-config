@@ -1,6 +1,39 @@
 {
-    "bankName": "MB Bank",
-    "bankAccount": "0965858421",
-    "bankOwner": "THAO A NU",
-    "zalo": "0965858421"
+      "bankName": "MB Bank",
+      "bankAccount": "0965858421",
+      "bankOwner": "THAO A NU",
+      "zalo": "0965858421",
+      "plans": [
+              {
+                        "code": "2T",
+                        "name": "Goi 1",
+                        "label": "2 thang",
+                        "price": "300.000d",
+                        "priceNum": 300000,
+                        "days": 60,
+                        "perMonth": "150.000d/thang",
+                        "perks": ["Khong gioi han pages", "Upload video & anh tu dong", "Len lich FB API", "Ho tro qua Zalo"]
+              },
+              {
+                        "code": "5T",
+                        "name": "Goi 2",
+                        "label": "5 thang",
+                        "price": "500.000d",
+                        "priceNum": 500000,
+                        "days": 150,
+                        "perMonth": "100.000d/thang",
+                        "popular": true,
+                        "perks": ["Khong gioi han pages", "Upload video & anh tu dong", "Len lich FB API", "Ho tro qua Zalo", "Tiet kiem hon Goi 1"]
+              },
+              {
+                        "code": "1Y",
+                        "name": "Goi 3",
+                        "label": "1 nam",
+                        "price": "1.500.000d",
+                        "priceNum": 1500000,
+                        "days": 365,
+                        "perMonth": "125.000d/thang",
+                        "perks": ["Khong gioi han pages", "Upload video & anh tu dong", "Len lich FB API", "Ho tro uu tien 24/7", "Toan bo tinh nang Pro"]
+              }
+      ]
 }
